@@ -1,0 +1,23 @@
+img.profile {
+  border-radius: 50%;
+  width:25%;
+  height:25%;
+  margin: 32px;
+}
+
+main > section > div > img { 
+  opacity: 0.4;
+  height: 320px;
+  object-fit: cover;
+  object-position: 0% 20%;
+  margin-bottom: 4px;
+}
+
+h1.card-title {
+  font-size: 72px;
+  font-weight: 25px;
+}
+
+p.card-text {
+  font-size: 24px;
+}

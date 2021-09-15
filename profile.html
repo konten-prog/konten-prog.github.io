@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>プロフィール</title>
+  </head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ps-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ホーム</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                プログラミング学習
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+                <li><a class="dropdown-item" href="#">プログラミング2</a></li>
+                <li><a class="dropdown-item" href="#">プログラミング3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                将棋
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">定跡</a></li>
+                <li><a class="dropdown-item" href="#">実践棋譜録</a></li>
+                <li><a class="dropdown-item" href="#">詰将棋・手筋・他</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">プロフィール</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill me-1" viewBox="0 0 16 16">
+                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                </svg>共有
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook me-1" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>Facebook</a></li>
+                <li><a class="dropdown-item" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter me-1" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>Twitter</a></li>
+                <li><a class="dropdown-item" href="#">Line</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="container profile">
+
+    <img src="img/profile_image.jpg" 
+     alt="プロフィール画像" class="profile">
+
+    <h1>プロフィール</h1>
+    <small>2021/09/12更新</small>
+    <br><br>
+    <h2>最初の出会い</h2>
+    <br><br>
+    将棋を知るきっかけは小学生だったが、<br>
+    周りが将棋を指せる人は<br>
+    <br><br>
+    学校で一人ぐらいしか、居なかったので<br>
+    あまりハマりませんでした。<br>
+    <br><br>
+    <h2>高校入学の将棋部に入部</h2>
+    <br><br>
+    高校に入って将棋部に入いりました。<br>
+    中高一貫校の男子校で他の連中は大学受験、アニメ、AKB、少女時代のカラ<br>
+    女遊び（極少）で勤しむ中、将棋にハマりました。<br>
+    <br><br>
+    <h2>将棋部に入って１週間～３週間</h2>
+    <br><br><br>
+
+    駒の動かし方と大まかなルールはある程度知っていました。<br>
+    <br><br>
+    最初は定跡も詰将棋も知らず、<br>
+    こっぴどく負けてかなり悔しく思いました。<br>
+    「定跡をある程度、習得したほうがいい」と言われ<br>
+    対局前に部室にある、古い定跡書を読みました。<br>
+    <br><br>
+    当然ながら、最新の定跡や戦型の流行なんて<br>
+    その本には書いていませんので、<br>
+    定跡とは違う手順を指されると<br>
+    もう勝てません。<br>
+    <br><br>
+    負けん気が強くどうにか、<br>
+    何度も挑戦するがやっぱり勝てませんでした。<br>
+    <br><br>
+    <h2>将棋部に入って３週間～１ヶ月半</h2>
+    <br><br>
+    <img src="img/hontoni_win_senzaki.jpg" alt="" class="thumbnail"><br><br>
+    図書館から借りて<br>
+    本格的に先崎棋士の四間飛車を読みあさりました。<br>
+    四間飛車ではじめて勝てるようになり、<br>
+    まともな将棋を指せました。<br>
+    ただボコボコにやられないものの、肝心の勝ちに繋がらず、芳しくありませんでした。<br>
+    <br><br>
+    <h2>携帯やパソコンは持っていませんでした</h2>
+    <br><br>
+    
+    私は周りが携帯やPCを持っていた中、<br>
+    <span>（その当時はスマホがなく、iphoneもごく少数だった）</span>
+    <br>
+    そういった機器を持たしてもらえませんでした。<br>
+    <br><br>
+    <span>
+      というか、あまり必要性が感じませんでした。<br>
+      出会い系サイトのトラブルと携帯の依存で<br>
+      悩んでいる先輩方々が居ました。<br><br>
+      トラブルに巻き込まれる危険と思い<br>
+      携帯の所持は自分から断りました。<br>
+    </span>
+    <br><br>
+
+    <h2>将棋部に入って２ヶ月～１年</h2>
+    <br><br>
+    定跡書の購入を進められ、中飛車を指すようになり安定して<br>
+    勝てるようになりました。<br>
+    <br><br>
+    攻めと守りがわかりやすく、自分から攻撃を仕掛ける戦型に<br>
+    物凄くマッチしました。大会でも中飛車を採用して、<br>
+    かなりいい勝負をしていました。<br>
+    <br><br>
+    ただ、中盤～終盤の指し回しが分からず、逆転負けが多かった。<br>
+    １冊の定跡書の手順から外れた戦型や見慣れない戦型に戸惑い、<br>
+    その戦型にどう指すのか、図書館にて定跡書を借りて、棋譜並べをしていました。<br>
+    <br><br>
+    <img src="img/tenka1_shogigroup.jpg" alt="" class="thumbnail">
+    <br><br>
+    中盤～終盤の対策で、詰将棋と手筋、他の戦型対策を<br>
+    平日１日５時間、休日10時間くらい物凄く将棋に浸っていた。<br>
+    試しに天下一将棋会でCPU対戦とオンライン対戦でぶつけました。<br>
+    <br><br><br>
+
+    お陰で急戦と穴熊対策、相振り尾車の対策、船囲い、穴熊、<br>
+    左美濃等の囲いの崩し方を一通り網羅し、<br>
+    角交換振り飛車や四間飛車、向かい飛車、三間飛車等の戦型をざっくり見通しました。<br>
+    <br><br>
+
+    <h2>将棋部に入って２年半</h2>
+    <br><br>
+    <img src="img/new_komaoti_manabe.jpg" alt="" class="thumbnail">
+    <br><br>
+    将棋道場にも１ヶ月に２回で通い、駒落ち将棋でボロボロに負け、<br>
+    また例の如く、振り飛車の駒落ち将棋を図書館にて探して、<br>
+    新・駒落革命（著：真部一男）でひたすら棋譜並べしていました。<br>
+    <br><br>
+    大学を中退する前後まで、ネット将棋にハマるのも<br>
+    AIの登場と新しい定跡や流行の戦型に追いつけず、将棋から離れました。<br>
+    <br><br>
+    将棋ソフトを導入したものの、パソコンはよくフリーズするし、<br>
+    ムキになってAIを相手に挑むものの、こっぴどく負けて<br>
+    意気消沈する。<br>
+    <br><br>
+    どういう手順でどういう理屈でAIが指しているのか、掴めないまま<br>
+    いざ、ネット将棋に挑むものの、あまり芳しくない対局が続き
+    将棋から離れた。<br>
+    <br><br><br>
+    <h2>今現在、</h2>
+    <br><br>
+    去年の夏辺りから再開していますが、将棋ウォーズ１級で<br>
+    初段～二段を相手して勝ったり負けたり、<br>
+    三段以上になるとほとんど勝てません。<br>
+    <br><br>
+    だから、三段以上を相手に勝てるために<br>
+    一度、将棋にハマったときを振り返って<br>
+    <br><br>
+    初心者が２ヶ月程度で２～３級の棋力を
+    紹介します。<br>
+    <br><br>
+    <br>
+    <ul>
+      <li>定跡の習得</li>
+      <li>手筋、詰将棋、寄せ</li>
+      <li>実践からフィードバック</li>
+      <li>定跡の研究</li>
+    </ul>
+    <br><br><br>
+    前半の２つで十分に初段の方に勝つことができますが、<br>
+    さらに初段以上の棋力と互角に戦うには<br>
+    ある程度、大局観と読みが必要になります。<br>
+    <br><br>
+    ここ最近、将棋ソフトが物凄く進化して<br>
+    割と扱いやすいように思えます。<br>
+    無料の将棋ソフトでも十分に感想戦と研究ができます。<br>
+    <br><br>
+    あとはひたすら実践のみです。<br>
+    <br><br>
+  </div>
+
+  <footer>
+    <div class="bg-secondary text-light text-center p-4 mt-4">
+      (c) mysite.com
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
